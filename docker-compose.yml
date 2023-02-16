@@ -33,7 +33,7 @@ services:
       - zookeeper  
   
   spark:
-    build: ./spark
+    # build: ./spark
     image: lucasmsp/spark:2.4
     command: /bin/bash
     tty: true
